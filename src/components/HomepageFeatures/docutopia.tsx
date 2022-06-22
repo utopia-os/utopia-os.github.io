@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
@@ -10,29 +11,28 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Local Connection',
-    Svg: require('@site/static/img/3markers-arrow.svg').default,
-    description: (
-      <>
-        Find like-minded people, places and events. In your neighbourhood and wherever you are!
-      </>
-    ),
-  },
-  {
-    title: 'Mapping the Change',
-    Svg: require('@site/static/img/3markers-globe.svg').default,
-    description: (
-      <>
-        Everywhere in the world, people build our future. Make this transformation visible. Worldwide!
-      </>
-    ),
-  },
-  {
-    title: 'Decentral Networks',
+    title: 'Organicly growing Network ',
     Svg: require('@site/static/img/network.svg').default,
     description: (
       <>
-        Get away with hierarchies and organise your life in decentral ways - physically and technically
+        Join the communal journey of creating a healthier, fair, transparent and anarchic future      </>
+    ),
+  },
+  {
+    title: 'Symbiotic Synergy Solution',
+    Svg: require('@site/static/img/3markers-globe.svg').default,
+    description: (
+      <>
+        Let’s continue the path together from utopia to living commons. This is how individual dreams become simultaneous realities.
+      </>
+    ),
+  },
+  {
+    title: 'Start mapping Now',
+    Svg: require('@site/static/img/map.svg').default,
+    description: (
+      <>
+        Check out the prototyp at <Link to="https://new.docutopia.de">new.docutopia.de</Link>
       </>
     ),
   },

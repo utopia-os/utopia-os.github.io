@@ -6,29 +6,27 @@ import Layout from '@theme/Layout';
 import UtopiaOSFeatures from '@site/src/components/HomepageFeatures/utopia-os';
 import UtopiaUIFeatures from '@site/src/components/HomepageFeatures/utopia-ui';
 import UtopiaP2PFeatures from '@site/src/components/HomepageFeatures/utopia-p2p';
+import DocutopiaFeatures from '@site/src/components/HomepageFeatures/docutopia';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import Map from '@site/src/components/map'; 
+
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
 
 import styles from './index.module.css';
 
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div id="map" className={styles.map}>
-        <MapContainer scrollWheelZoom={false} style={{ height: "400px",   width: "100vw" }}  center={[51.3, 9.6]} zoom={8}>
-        <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-            <Marker position={[51.505, -0.09]}>
-                <Popup>
-                A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-            </Marker>
-        </MapContainer>
-        </div>
+        <BrowserOnly fallback={<div>Loading...</div>}>
+          {() => {
+            const LibComponent = require('@site/src/components/map').Map;
+            return <LibComponent />;
+          }}
+        </BrowserOnly>
     </header>
   );
 }
@@ -87,9 +85,9 @@ export default function Home(): JSX.Element {
           <div className="hero text--center">
             <div className="container">
               <h1 className="hero__title">Docutopia</h1>
-              <p className="hero__subtitle">the open organicly growing network is the origin and the initial use case of Utopia OS</p>
+              <p className="hero__subtitle">is the origin and the initial use case of Utopia OS. </p>
               <div>
-              <UtopiaOSFeatures />
+              <DocutopiaFeatures />
                 <button className="button button--secondary button--outline button--lg">
                   learn more
                 </button>

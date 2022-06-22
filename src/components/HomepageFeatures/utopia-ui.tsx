@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Profiles',
-    Svg: require('@site/static/img/place-popup.svg').default,
+    Svg: require('@site/static/img/boba.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
