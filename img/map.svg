@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="76.045715mm"
-   height="53.695072mm"
-   viewBox="0 0 76.045713 53.695075"
+   width="70mm"
+   height="45mm"
+   viewBox="0 0 69.999998 45.000003"
    version="1.1"
    id="svg119"
    sodipodi:docname="map.svg"
@@ -23,7 +23,7 @@
        inkscape:collect="always"
        xlink:href="#pattern58"
        id="pattern63"
-       patternTransform="matrix(0.26380427,-9.7406024e-4,9.7113708e-4,0.26301259,-32.925392,-32.863447)" />
+       patternTransform="matrix(0.26380427,-9.7406024e-4,9.7113708e-4,0.26301259,-191.68349,28.074005)" />
     <pattern
        inkscape:collect="always"
        xlink:href="#pattern39"
@@ -68,9 +68,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="27.685573"
-     inkscape:cy="-166.26489"
+     inkscape:zoom="11.2"
+     inkscape:cx="147.72368"
+     inkscape:cy="136.72551"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -78,9 +78,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1200"
-     inkscape:window-height="1889"
-     inkscape:window-x="1920"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
@@ -91,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -99,27 +99,45 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Ebene 4"
-     transform="translate(32.925396,32.863441)">
+     transform="translate(32.925396,24.168373)">
     <rect
        style="fill:url(#pattern63);stroke:none"
        width="76.145714"
        height="53.695072"
-       x="-32.925396"
-       y="-32.863441"
+       x="-191.6835"
+       y="28.074011"
        id="rect61"
        ry="26.847536" />
+    <ellipse
+       id="path41"
+       cx="2.135262"
+       cy="-1.8755336"
+       rx="35.01231"
+       ry="21.916101"
+       style="fill:#bddab1;fill-opacity:1;stroke-width:0.26458332" />
+    <path
+       style="fill:#aad3df;fill-opacity:1;stroke:#aad3df;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.9701712,-22.336445 c -0.9573119,0.01299 -0.8483804,-0.02844 -1.7919853,0.272809 -0.5434702,0.173507 -0.7354064,0.271792 -1.5168452,1.391567 -2.05408886,2.943438 -1.91705872,1.766623 -3.6178087,4.819964 -1.7626853,3.164533 -2.2869756,6.2113559 -6.3239623,9.4780652 -1.8036817,1.4595299 -3.4814767,3.4515752 -3.9638477,5.67102497 -0.848275,3.90302023 -6.187759,6.71713133 -6.548357,8.78160723 -0.34528,1.9767746 -0.473051,5.5443936 -2.363287,5.4528376 -2.381908,-0.11537 1.933454,1.92688 2.778246,2.29964"
+       id="path43"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssssc" />
+    <path
+       style="fill:#aad3df;fill-opacity:1;stroke:#aad3df;stroke-width:0.217812;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 4.9701712,-22.336445 c 0.534615,0.320333 1.8242775,8.696469 3.5061681,-0.544508 0,0 4.1466847,-0.438085 4.7519037,0.592625 0.60522,1.03071 -5.6330817,5.929573 -3.2372253,7.229022 2.7361363,1.484006 2.2120283,3.209252 -0.2410963,3.605276 -1.8772702,0.30306 -4.2636365,-3.558377 -5.7097314,-5.015483 -1.4804301,-1.491702 -5.00161461,0.324626 -4.29010761,2.137404 0.711507,1.812773 -6.23747369,11.1523848 -6.75680369,12.9404935 C -8.3078757,3.0883976 -18.08335,13.915375 -18.377676,15.83107"
+       id="path43-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssssc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Ebene 2"
      style="display:inline"
-     transform="translate(37.592981,83.764655)"
-     sodipodi:insensitive="true">
+     transform="translate(37.592981,75.069587)">
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
        stroke-miterlimit="2"
-       transform="matrix(0.35277735,0,0,0.35277735,-1.3020905,-47.074989)"
+       transform="matrix(0.35277735,0,0,0.35277735,-6.0645908,-43.37082)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -135,7 +153,7 @@
     </g>
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#c4037d;fill-opacity:1;stroke:none"
-       transform="matrix(0.33261858,0,0,0.33261858,-3.4187545,-57.381009)"
+       transform="matrix(0.33261858,0,0,0.33261858,-8.1812548,-53.67684)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -148,7 +166,7 @@
     </g>
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.35277735,0,0,0.35277735,-3.7715314,-57.658299)"
+       transform="matrix(0.35277735,0,0,0.35277735,-8.5340317,-53.95413)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -164,15 +182,14 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-25.343941,-77.861389)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-25.343941,-86.556457)"
+     style="display:inline">
     <g
        id="g6603"
        font-style="normal"
        font-weight="400"
        font-size="10"
-       transform="matrix(0.35277735,0,0,0.35277735,42.376757,104.4646)"
+       transform="matrix(0.35277735,0,0,0.35277735,37.614254,108.16879)"
        stroke-miterlimit="2"
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1">
       <image
@@ -189,7 +206,7 @@
        font-style="normal"
        font-weight="400"
        font-size="10"
-       transform="matrix(0.33261858,0,0,0.33261858,40.260097,94.158566)"
+       transform="matrix(0.33261858,0,0,0.33261858,35.497594,97.862735)"
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;fill:#e87520;fill-opacity:1;stroke:none">
       <path
          id="path6699"
@@ -202,7 +219,7 @@
        font-style="normal"
        font-weight="400"
        font-size="10"
-       transform="matrix(0.35636861,0,0,-0.35636861,-37.313173,142.98119)"
+       transform="matrix(0.35636861,0,0,-0.35636861,-42.075676,146.68538)"
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;fill:#231f20;fill-opacity:0.2;stroke:none">
       <path
          id="path6707"
@@ -215,7 +232,7 @@
        font-style="normal"
        font-weight="400"
        font-size="10"
-       transform="matrix(0.35277735,0,0,0.35277735,39.907317,93.881286)"
+       transform="matrix(0.35277735,0,0,0.35277735,35.144814,97.585455)"
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;fill:#ffffff;fill-opacity:1;stroke:none">
       <path
          id="path6727"
@@ -229,12 +246,11 @@
      id="layer6"
      inkscape:label="Ebene 3"
      style="display:inline"
-     transform="translate(37.592981,83.764655)"
-     sodipodi:insensitive="true">
+     transform="translate(37.592981,75.069587)">
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1"
        stroke-miterlimit="2"
-       transform="matrix(0.35277735,0,0,0.35277735,15.948589,-58.999501)"
+       transform="matrix(0.35277735,0,0,0.35277735,11.186086,-55.295332)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -250,7 +266,7 @@
     </g>
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#008e5b;fill-opacity:1;stroke:none"
-       transform="matrix(0.32253939,0,0,0.32253939,14.184699,-69.07872)"
+       transform="matrix(0.32253939,0,0,0.32253939,9.4221966,-65.374551)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -263,7 +279,7 @@
     </g>
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#2a71b0;fill-opacity:1;stroke:none"
-       transform="matrix(0.32253939,0,0,0.32253939,14.184699,-69.07872)"
+       transform="matrix(0.32253939,0,0,0.32253939,9.4221966,-65.374551)"
        font-size="10"
        font-weight="400"
        font-style="normal"
@@ -276,7 +292,7 @@
     </g>
     <g
        style="font-style:normal;font-weight:400;font-size:10px;font-family:Ubuntu;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.35277735,0,0,0.35277735,13.479139,-69.58284)"
+       transform="matrix(0.35277735,0,0,0.35277735,8.7166369,-65.878671)"
        font-size="10"
        font-weight="400"
        font-style="normal"
