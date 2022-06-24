@@ -11,61 +11,55 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Serverless Hosting',
-    Svg: require('@site/static/img/map.svg').default,
+    Svg: require('@site/static/img/serverless.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Let's avoid any kind of server to protect our data and make our Apps unstopable.
       </>
     ),
   },
   {
     title: 'p2p Database',
-    Svg: require('@site/static/img/place-popup.svg').default,
+    Svg: require('@site/static/img/p2p-database.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Instead we make use of decentralized databases in a p2p Environment.
       </>
     ),
   },
   {
-    title: 'Public & Private Keys',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Key-based IDs',
+    Svg: require('@site/static/img/public-private-key.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Create a public-private Key Pair as your serverless decentralized Identity. 
       </>
     ),
   },
   {
     title: 'Web of Trust',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/qr-scan.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Build your Web of Trust by sharing your Public Key offline with people you trust.
       </>
     ),
   },
   {
     title: 'e2e Encryption',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/web-of-trust.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Share your private data end-to-end-encrypted within your Web of Trust.
       </>
     ),
   },
   {
     title: 'Offline Support',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/offline.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Use all this Features even without being connected to the Internet.
       </>
     ),
   },

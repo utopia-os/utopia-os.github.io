@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Start mapping Now',
+    title: 'Start Mapping Now',
     Svg: require('@site/static/img/map.svg').default,
     description: (
       <>

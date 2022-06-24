@@ -10,62 +10,56 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Map',
+    title: 'Map UI',
     Svg: require('@site/static/img/map.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The Map is the crystallization point between real and virtual world where everything comes together.
       </>
     ),
   },
   {
-    title: 'Profiles',
-    Svg: require('@site/static/img/boba.svg').default,
+    title: 'Profile UI',
+    Svg: require('@site/static/img/profiles.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Profiles allow users to intodruce them self to the community
       </>
     ),
   },
   {
-    title: 'Calendar',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Market UI',
+    Svg: require('@site/static/img/market.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Browse all Offers and Needs in the categorized p2p Market Place
       </>
     ),
   },
   {
-    title: 'Market',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Calendar UI',
+    Svg: require('@site/static/img/moon.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        coming soon ...
       </>
     ),
   },
   {
-    title: 'Groups & Friends',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Friends and Groups UI',
+    Svg: require('@site/static/img/friends.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Customize your App and manage your personal Network of Friends and Groups 
       </>
     ),
   },
   {
-    title: 'Gamification',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Colors & Tags',
+    Svg: require('@site/static/img/tags.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Colors and Tags are an intuitive way to keep track of your content
       </>
     ),
   },

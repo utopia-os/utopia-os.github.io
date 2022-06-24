@@ -8,17 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Utopia OS',
   tagline: 'app components for real life communities',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://utopia-os.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/3markers.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'utopia-os', // Usually your GitHub org/user name.
   projectName: 'utopia-os.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -60,7 +61,7 @@ const config = {
       navbar: {
         title: 'Utopia OS',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Utopia OS',
           src: 'img/3markers.svg',
         },
         items: [
@@ -68,7 +69,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -97,6 +98,10 @@ const config = {
                 label: 'Telegram',
                 href: 'https://t.me/utopiaOS',
               },
+              {
+                label: 'Docutopia Map',
+                href: 'https://new.docutopia.de/'
+              }
             ],
           },
           {

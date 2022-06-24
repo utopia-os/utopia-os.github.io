@@ -28,11 +28,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Decentral Networks',
+    title: 'Decentralized Networks',
     Svg: require('@site/static/img/network.svg').default,
     description: (
       <>
-        Get away with hierarchies and organise your life in decentral ways - physically and technically
+        Get away with hierarchies and organise your life in decentralized ways - physically and technically
       </>
     ),
   },

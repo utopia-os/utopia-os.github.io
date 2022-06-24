@@ -8,12 +8,7 @@ import UtopiaUIFeatures from '@site/src/components/HomepageFeatures/utopia-ui';
 import UtopiaP2PFeatures from '@site/src/components/HomepageFeatures/utopia-p2p';
 import DocutopiaFeatures from '@site/src/components/HomepageFeatures/docutopia';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import Map from '@site/src/components/map'; 
-
-
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css';
-
 import styles from './index.module.css';
 
 
@@ -36,14 +31,14 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Utopia OS is a Framework to build apps for real life communities">
+      description="Utopia OS is a Framework to build Apps for real life interaction">
       <HomepageHeader />
       <main>
         <div className="text--center padding-horiz--md padding-vert--lg">
           <div className="hero text--center shadow--lw">
             <div className="container">
               <h1 className="hero__title">Utopia OS</h1>
-              <p className="hero__subtitle">the Framework to build apps for real life communities</p>
+              <p className="hero__subtitle">the Framework to build Apps for Real Life Interaction</p>
               <div>
               <UtopiaOSFeatures />
                 <button className="button button--secondary button--outline button--lg">
@@ -56,8 +51,8 @@ export default function Home(): JSX.Element {
         <div className="text--center padding-horiz--md padding-vert--lg">
           <div className="hero text--center shadow--lw">
             <div className="container">
-              <h1 className="hero__title">Reusable UI Components</h1>
-              <p className="hero__subtitle">the Framework to build apps for real life communities</p>
+              <h1 className="hero__title">Utopia UI </h1>
+              <p className="hero__subtitle">Reuseable UI Components for all kinds of communities</p>
               <div>
               <UtopiaUIFeatures />
                 <button className="button button--secondary button--outline button--lg">
@@ -70,8 +65,8 @@ export default function Home(): JSX.Element {
         <div className="text--center padding-horiz--md padding-vert--lg">
           <div className="hero text--center shadow--lw">
             <div className="container">
-              <h1 className="hero__title">Unstopable p2p Apps</h1>
-              <p className="hero__subtitle">the Framework to build apps for real life communities</p>
+              <h1 className="hero__title">Utopia p2p</h1>
+              <p className="hero__subtitle">Our vision is to run Utopia OS in a fully decentralized environment</p>
               <div>
               <UtopiaP2PFeatures />
                 <button className="button button--secondary button--outline button--lg">
