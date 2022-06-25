@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Map UI',
+    title: 'Map Components',
     Svg: require('@site/static/img/map.svg').default,
     description: (
       <>
@@ -19,7 +19,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Profile UI',
+    title: 'Profile Components',
     Svg: require('@site/static/img/profiles.svg').default,
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Market UI',
+    title: 'Market Components',
     Svg: require('@site/static/img/market.svg').default,
     description: (
       <>
@@ -37,7 +37,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Calendar UI',
+    title: 'Calendar Components',
     Svg: require('@site/static/img/moon.svg').default,
     description: (
       <>
@@ -46,7 +46,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Friends and Groups UI',
+    title: 'Friends and Groups Components',
     Svg: require('@site/static/img/friends.svg').default,
     description: (
       <>
@@ -55,7 +55,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Colors & Tags',
+    title: 'Tags and Colors Components',
     Svg: require('@site/static/img/tags.svg').default,
     description: (
       <>

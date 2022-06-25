@@ -10,7 +10,6 @@ import DocutopiaFeatures from '@site/src/components/HomepageFeatures/docutopia';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import 'leaflet/dist/leaflet.css';
 import styles from './index.module.css';
-import Map from 'utopia-ui';
 
 
 function HomepageHeader() {
@@ -42,9 +41,11 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">the Framework to build Apps for Real Life Interaction</p>
               <div>
               <UtopiaOSFeatures />
-                <button className="button button--secondary button--outline button--lg">
-                  learn more
-                </button>
+                <Link href='/docs/intro'>
+                  <button className="button button--secondary button--outline button--lg">
+                    learn more
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,9 +57,11 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">Reuseable UI Components for all kinds of communities</p>
               <div>
               <UtopiaUIFeatures />
-                <button className="button button--secondary button--outline button--lg">
-                  learn more
-                </button>
+                <Link href='/docs/category/utopia-ui'>
+                  <button className="button button--secondary button--outline button--lg">
+                    learn more
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -70,9 +73,11 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">Our vision is to run Utopia OS in a fully decentralized environment</p>
               <div>
               <UtopiaP2PFeatures />
-                <button className="button button--secondary button--outline button--lg">
-                  learn more
-                </button>
+                <Link href='/docs/category/utopia-p2p'>
+                  <button className="button button--secondary button--outline button--lg">
+                    learn more
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -84,9 +89,11 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">is the origin and the initial use case of Utopia OS. </p>
               <div>
               <DocutopiaFeatures />
-                <button className="button button--secondary button--outline button--lg">
-                  learn more
-                </button>
+                <Link href='https://new.docutopia.de'>
+                  <button className="button button--secondary button--outline button--lg">
+                  check it out
+                  </button>
+                </Link> 
               </div>
             </div>
           </div>
