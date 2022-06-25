@@ -10,6 +10,7 @@ import DocutopiaFeatures from '@site/src/components/HomepageFeatures/docutopia';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import 'leaflet/dist/leaflet.css';
 import styles from './index.module.css';
+import Map from 'utopia-ui';
 
 
 function HomepageHeader() {

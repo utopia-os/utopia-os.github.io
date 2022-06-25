@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Data Objects
 
 |                | Place       | Event    | Offer    | Need     | Profile  |
