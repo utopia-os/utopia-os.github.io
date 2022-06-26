@@ -31,19 +31,19 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Utopia OS is a Framework to build Apps for real life interaction">
+      description="the Web Framework to build Apps for Real Life Communities">
       <HomepageHeader />
       <main>
         <div className="text--center padding-horiz--md padding-vert--lg">
           <div className="hero text--center shadow--lw">
             <div className="container">
               <h1 className="hero__title">Utopia OS</h1>
-              <p className="hero__subtitle">the Framework to build Apps for Real Life Interaction</p>
+              <p className="hero__subtitle">the Web Framework to build Apps for Real Life Communities</p>
               <div>
               <UtopiaOSFeatures />
                 <Link href='/docs/intro'>
                   <button className="button button--secondary button--outline button--lg">
-                    learn more
+                    read more
                   </button>
                 </Link>
               </div>
@@ -54,28 +54,12 @@ export default function Home(): JSX.Element {
           <div className="hero text--center shadow--lw">
             <div className="container">
               <h1 className="hero__title">Utopia UI </h1>
-              <p className="hero__subtitle">Reuseable UI Components for all kinds of communities</p>
+              <p className="hero__subtitle">easy customizable UI Components which fit your needs</p>
               <div>
               <UtopiaUIFeatures />
                 <Link href='/docs/category/utopia-ui'>
                   <button className="button button--secondary button--outline button--lg">
-                    learn more
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="text--center padding-horiz--md padding-vert--lg">
-          <div className="hero text--center shadow--lw">
-            <div className="container">
-              <h1 className="hero__title">Utopia p2p</h1>
-              <p className="hero__subtitle">Our vision is to run Utopia OS in a fully decentralized environment</p>
-              <div>
-              <UtopiaP2PFeatures />
-                <Link href='/docs/category/utopia-p2p'>
-                  <button className="button button--secondary button--outline button--lg">
-                    learn more
+                    read more
                   </button>
                 </Link>
               </div>
@@ -85,15 +69,15 @@ export default function Home(): JSX.Element {
         <div className="text--center padding-horiz--md padding-vert--lg">
           <div className="hero text--center">
             <div className="container">
-              <h1 className="hero__title">Docutopia</h1>
-              <p className="hero__subtitle">is the origin and the initial use case of Utopia OS. </p>
+              <h1 className="hero__title">Utopia p2p</h1>
+              <p className="hero__subtitle">imagine to run everything in a fully decentralized environment</p>
               <div>
-              <DocutopiaFeatures />
-                <Link href='https://new.docutopia.de'>
+              <UtopiaP2PFeatures />
+                <Link href='/docs/category/utopia-p2p'>
                   <button className="button button--secondary button--outline button--lg">
-                  check it out
+                    read more
                   </button>
-                </Link> 
+                </Link>
               </div>
             </div>
           </div>
