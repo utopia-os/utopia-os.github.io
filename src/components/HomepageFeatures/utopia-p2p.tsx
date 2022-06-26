@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/serverless.svg').default,
     description: (
       <>
-        Let's avoid any kind of server to protect our data and make our Apps unstopable.
+        To make our Apps unstopable and protect out data we intend to avoid any kind of central server. 
       </>
     ),
   },

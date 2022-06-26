@@ -6,9 +6,12 @@ sidebar_position: 3
 
 Offers and Needs in the categorized p2p Market Place
 
-* Offers
+* Offers (Skills, Things to lend, Give Away, ...)
 * Needs
 * Categories
 * Tags
 * Images
-* Matchmaking 
+* Matchmaking (Offers and Needs with the same Tag)
+
+### Requirements
+We need some UX Design

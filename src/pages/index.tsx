@@ -6,7 +6,6 @@ import Layout from '@theme/Layout';
 import UtopiaOSFeatures from '@site/src/components/HomepageFeatures/utopia-os';
 import UtopiaUIFeatures from '@site/src/components/HomepageFeatures/utopia-ui';
 import UtopiaP2PFeatures from '@site/src/components/HomepageFeatures/utopia-p2p';
-import DocutopiaFeatures from '@site/src/components/HomepageFeatures/docutopia';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import 'leaflet/dist/leaflet.css';
 import styles from './index.module.css';
