@@ -71,7 +71,12 @@ const config = {
             docId: 'docs/intro',
             position: 'left',
             label: 'Docs',
-          }
+          },
+          {
+            href: 'https://github.com/utopia-os',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -86,7 +91,7 @@ const config = {
               },
               {
                 label: 'Utopia-UI',
-                to: 'category/utopia-ui',
+                to: 'docs/category/utopia-ui',
               },
             ],
           },
