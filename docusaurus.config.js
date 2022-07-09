@@ -40,6 +40,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/utopia-os/utopia-os.github.io/tree/main/',
+            routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -67,16 +68,10 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'docs/intro',
             position: 'left',
             label: 'Docs',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/utopia-os',
-            label: 'GitHub',
-            position: 'right',
-          },
+          }
         ],
       },
       footer: {

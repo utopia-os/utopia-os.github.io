@@ -53,7 +53,7 @@ export default function Home(): JSX.Element {
           <div className="hero text--center shadow--lw">
             <div className="container">
               <h1 className="hero__title">Utopia UI </h1>
-              <p className="hero__subtitle">easy customizable UI Components which fit your needs</p>
+              <p className="hero__subtitle">easy customizable UI Components which fit your projects needs</p>
               <div>
               <UtopiaUIFeatures />
                 <Link href='/docs/category/utopia-ui'>

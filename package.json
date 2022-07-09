@@ -15,8 +15,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.21",
-    "@docusaurus/preset-classic": "2.0.0-beta.21",
+    "@docusaurus/core": "2.0.0-beta.22",
+    "@docusaurus/preset-classic": "2.0.0-beta.22",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
     "leaflet": "^1.8.0",
@@ -28,7 +28,7 @@
     "utopia-ui": "^1.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.21",
+    "@docusaurus/module-type-aliases": "2.0.0-beta.22",
     "@tsconfig/docusaurus": "^1.0.5",
     "trim": ">=0.0.3",
     "typescript": "^4.6.4"
