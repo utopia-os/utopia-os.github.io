@@ -91,7 +91,7 @@ const config = {
               },
               {
                 label: 'Utopia-UI',
-                to: 'docs/category/utopia-ui',
+                to: 'category/utopia-ui',
               },
             ],
           },
