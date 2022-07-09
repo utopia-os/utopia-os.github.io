@@ -56,7 +56,7 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">easy customizable UI Components which fit your projects needs</p>
               <div>
               <UtopiaUIFeatures />
-                <Link href='/docs/category/utopia-ui'>
+                <Link href='/category/utopia-ui'>
                   <button className="button button--secondary button--outline button--lg">
                     read more
                   </button>
@@ -72,7 +72,7 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">imagine to run everything in a fully decentralized environment</p>
               <div>
               <UtopiaP2PFeatures />
-                <Link href='/docs/category/utopia-p2p'>
+                <Link href='/category/utopia-p2p'>
                   <button className="button button--secondary button--outline button--lg">
                     read more
                   </button>
