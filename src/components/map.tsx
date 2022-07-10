@@ -1,6 +1,7 @@
 import React from 'react';
 import UtopiaMap from 'utopia-ui'
 import 'leaflet/dist/leaflet.css';
+import {tags, places} from './data'
 
 function Layer(): JSX.Element {
     return (
@@ -9,11 +10,11 @@ function Layer(): JSX.Element {
     );
 }
 
-export interface IMarkerPopupProps {
+interface IMarkerPopupProps {
     item: IMapItem;
   }
   
-  export interface IMapItem {
+interface IMapItem {
     id?: string,
     date_created?: string,
     date_updated?: string | null,
@@ -22,16 +23,16 @@ export interface IMarkerPopupProps {
     position: IGeometry,
     start?: string,
     end?: string,
-    tags: ITag[],
+    tags?: ITag[],
     [key: string]:any
   }
   
-  export interface IGeometry {
+ interface IGeometry {
     type: string;
     coordinates: number[];
   }
   
-  export interface ITag {
+interface ITag {
     Tags_id :
     {
       color: string;
@@ -39,34 +40,6 @@ export interface IMarkerPopupProps {
     }
   }
 
-const places:IMapItem[] = [{
-    "id": "45445-fs0b-4c98-9381-bda13b0c2ac7",
-    "date_created": "2022-04-05T08:20:45.178Z",
-    "date_updated": "2022-04-05T08:57:41.311Z",
-    "name": "Bla Bla",
-    "text": "welcome home, ....",
-    "position": {
-        "type": "Point",
-        "coordinates": [
-            9.50282340471136,
-            52.0
-        ]
-    },
-    "tags": [
-        {
-            "Tags_id": {
-                "color": "#75507B",
-                "id": "Docutopia"
-            }
-        },
-        {
-            "Tags_id": {
-                "color": "#4E9A06",
-                "id": "Rainbow"
-            }
-        }
-    ]
-}];
 
 const events:IMapItem[] = [
     {
@@ -131,10 +104,10 @@ const events:IMapItem[] = [
     }
 ];
 
-export function Map(): JSX.Element {
+export function Map(props): JSX.Element {
     return (
     <div id="map">
-        <UtopiaMap height='360px' width='100vw' center={[51.3, 9.6]} zoom={6} places={places} events={events}/>
+        <UtopiaMap height={props.height} width={props.width} center={props.center} zoom={props.zoom} places={places} events={events} tags={tags}/>
     </div>
     );
 }

@@ -17,8 +17,8 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <BrowserOnly fallback={<div>Loading...</div>}>
           {() => {
-            const LibComponent = require('@site/src/components/map').Map;
-            return <LibComponent />;
+            const MapComponent = require('@site/src/components/map').Map;
+            return <MapComponent height='360px' width='100vw' center={[50.6, 9.48]} zoom={10}/>;
           }}
         </BrowserOnly>
     </header>
@@ -29,7 +29,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`Home`}
       description="the Web Framework to build Apps for Real Life Communities">
       <HomepageHeader />
       <main>

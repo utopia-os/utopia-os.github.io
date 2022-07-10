@@ -73,6 +73,11 @@ const config = {
             label: 'Docs',
           },
           {
+            href: '/map',
+            position: 'left',
+            label: 'Demo',
+          },
+          {
             href: 'https://github.com/utopia-os',
             label: 'GitHub',
             position: 'right',
