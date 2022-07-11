@@ -18,7 +18,7 @@ function HomepageHeader() {
         <BrowserOnly fallback={<div>Loading...</div>}>
           {() => {
             const MapComponent = require('@site/src/components/map').Map;
-            return <MapComponent height='calc(100vh - 60px)' width='100vw' center={[50.55, 9.6]} zoom={10}/>;
+            return <MapComponent height='calc(100vh - 60px)' width='100vw' center={[50.6, 9.6]} zoom={11}/>;
           }}
         </BrowserOnly>
     </header>

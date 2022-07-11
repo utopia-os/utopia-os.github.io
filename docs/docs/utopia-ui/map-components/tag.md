@@ -10,5 +10,6 @@ sidebar_position: 5
 
  Option         | Type              | Default      | Required   | Description 
  ---            | ---               | ---          | ---        | ---    
- `id`           | `string`          | -            |            | name of this tag           
- `color`        | `string`          | -            |            | color for this tag   
+ `id`           | `number`          | -            |            | *id of this tag*           
+ `name`           | `string`          | -            |          | *name of this tag*           
+ `color`        | `string`          | -            |            | *color for this tag*   
