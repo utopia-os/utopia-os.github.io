@@ -1,12 +1,12 @@
+---
+displayed_sidebar: conceptsSidebar
+sidebar_position: 1
+---
 # Leitfaden
 *für das neue Zeitalter*
 
 ## Hierarchien
 im zuendegehenden Zeitalter organisierten sich Menschen in Hierarchien. In der Wirtschaft, der Politik, ehrenamtlichen Vereinen. Es stand fast immer eine Gruppe an der Spitze (oder im Zentrum - je nachdem wie man es darstellt),  die Entscheidungen getroffen und sie nach unten bzw. außen weiter gegeben hat.
-
-Kontroll - Komplex -> Stört den Flow
-
-[](https://notes.healing-the-planet.one/uploads/upload_4f278a0bdb487c370b5b293ad7d3746f.png)
 
 Solche zentral gesteuerten Systeme waren unnatürlich und ungesund. Sie waren die Ursache von Herrschaft, Korruption, Machtmissbrauch und der aktuellen Kriese. Sie korrumpierten die Menschen, welche Macht besaßen. Gleichzeitig machten es sich die Untergebenen bequem, indem sie die Verantwortung für ihre Handlungen abgaben.
 
@@ -14,8 +14,6 @@ In der aktuellen Transformations-Phase, sehen wir, wie Autoritäten sich entzaub
 
 ##  Internet
 Digitale Medien nehmen in unser Welt immer mehr Raum ein. Sie machen Informationen universell verfügbar, automatisieren Wertschöpfungsketten und verbinden den ganzen Globus miteinander.
-
-[Fusion]
 
 Gleichzeitig überfluten sie uns mit beliebigen Daten. Fesseln unsere Aufmerksamkeit und ziehen uns ihren Bann. Hypnotisiert verbringen wir viel zu viel Zeit vor den Bildschirmen. Das Hier und Jetzt verblasst. Unsere Körper verkümmern. Wir entfremden uns von einander und von unserer Umwelt. Die Gesellschaft wird mehr und mehr von Bits und Bytes zusammengehalten. Die aktuelle Krise setzt dieser Entwicklung die Krone auf.
 
