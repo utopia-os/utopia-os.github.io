@@ -6,7 +6,9 @@ sidebar_position: 2
 
 The Map Component based on [leaflet](https://leafletjs.com) is the crystalisation point of Utopia OS.
 
-Include it somewhere in your React Application and pass the required props.
+The map shows places, events and people at their respective position whith nice and informative Popups. Tags, colors and clusters help to retain the overview.
+
+[Include](/docs/utopia-ui/getting-started) it somewhere in your React Application, pass some data and the required props.
 
 ### Options
 

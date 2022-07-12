@@ -73,6 +73,12 @@ const config = {
             label: 'Docs',
           },
           {
+            type: 'doc',
+            docId: 'concepts/offline-first',
+            position: 'left',
+            label: 'Concepts',
+          },
+          {
             href: '/map',
             position: 'left',
             label: 'Demo',
