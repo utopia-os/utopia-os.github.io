@@ -7,7 +7,6 @@ import UtopiaOSFeatures from '@site/src/components/HomepageFeatures/utopia-os';
 import UtopiaUIFeatures from '@site/src/components/HomepageFeatures/utopia-ui';
 import UtopiaP2PFeatures from '@site/src/components/HomepageFeatures/utopia-p2p';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import 'leaflet/dist/leaflet.css';
 import styles from './map.module.css';
 
 

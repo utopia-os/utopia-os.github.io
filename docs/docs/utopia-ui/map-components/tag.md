@@ -8,8 +8,20 @@ sidebar_position: 5
 ### Tag Object
 
 
- Option         | Type              | Default      | Required   | Description 
- ---            | ---               | ---          | ---        | ---    
- `id`           | `number`          | -            |            | *id of this tag*           
- `name`           | `string`          | -            |          | *name of this tag*           
- `color`        | `string`          | -            |            | *color for this tag*   
+ Key            | Type              | Required   | Description 
+ ---            | ---               | ---        | ---    
+ `id`           | `number`          |  **Yes**   | id of this tag           
+ `name`         | `string`          |  **Yes**   | name of this tag       
+ `color`        | `string`          |  **Yes**   | color for this tag
+
+### Example
+
+```jsx
+const tags = [
+  {"id": 9, "name": "Gardening", "color": "#008e5b" },
+  {"id": 10, "name": "Art", "color": "#fdc60b" },
+  {"id": 11, "name": "Nature", "color": "#8cbb26"  },
+  {"id": 13, "name": "Market", "color": "#2a71b0" }
+]
+
+```

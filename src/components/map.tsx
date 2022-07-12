@@ -1,6 +1,5 @@
 import React from 'react';
 import {UtopiaMap} from 'utopia-ui'
-import 'leaflet/dist/leaflet.css';
 import {tags, places, events} from './data'
 
 export function Map(props): JSX.Element {

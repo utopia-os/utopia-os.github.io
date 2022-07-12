@@ -73,12 +73,6 @@ const config = {
             label: 'Docs',
           },
           {
-            type: 'doc',
-            docId: 'concepts/offline-first',
-            position: 'left',
-            label: 'Concepts',
-          },
-          {
             href: '/map',
             position: 'left',
             label: 'Demo',
@@ -97,12 +91,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction',
-                to: 'docs/intro',
+                label: 'Getting Started',
+                to: 'docs/utopia-ui/getting-started',
               },
               {
-                label: 'Utopia-UI',
-                to: 'category/utopia-ui',
+                label: 'Concepts',
+                to: 'concepts/offline-first',
               },
             ],
           },

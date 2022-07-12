@@ -1,28 +1,36 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# Items
+# Getting Started
 
-with Marker customizable in shape, color and icon
+install via npm
+```bash
+ npm install utopia-ui
+```
 
-### Item Object
+then import in your React App
+```jsx
+import UtopiaMap from 'utopia-ui'
+```
+
+use the [Map UI Component](/docs/utopia-ui/map-components/map)
+```jsx
+<UtopiaMap>
+   height='360px'
+   width='100vw'
+   center={[51.3, 9.6]}
+   zoom={6}
+   places={places}
+   events={events}
+   tags = {tags}
+</UtopiaMap>
+```
+You can find some Sample Data (places, events, tags) for test purpose below
 
 
-Key             | Type                    | Required   | Description 
----             | ---                     | ---        | ---    
-`id`            | `number`                |   **Yes**  | unique identifier    
-`name`          | `string`                |   **Yes**  | name of the item           
-`text`          | `string`                |   **Yes**  | description
-`position`      | `LatLngExpression`      |   **Yes**  | item position           
-`tags`          | `numbers[]`             |     No     | ids of all belonging tags
-`start`         | `YYYY-MM-DDTHH:MM:SSZ`  |     No     | timestamp   
-`end`           | `YYYY-MM-DDTHH:MM:SSZ`  |     No     | timestamp   
-`date_created`  | `YYYY-MM-DDTHH:MM:SSZ`  |     No     | timestamp   
-`date_updated`  | `YYYY-MM-DDTHH:MM:SSZ`  |     No     | timestamp   
 
-### Examples
-
+### Sample Data
 ```jsx
 const places = [{
   "id": 51,
@@ -50,4 +58,12 @@ const events = [
     "tags": [10]
   }
 ]
+
+const tags = [
+  {"id": 9, "name": "Gardening", "color": "#008e5b" },
+  {"id": 10, "name": "Art", "color": "#fdc60b" },
+  {"id": 11, "name": "Nature", "color": "#8cbb26"  },
+  {"id": 13, "name": "Market", "color": "#2a71b0" }
+]
+
 ```
