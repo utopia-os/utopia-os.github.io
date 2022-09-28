@@ -16,7 +16,7 @@ import UtopiaMap from 'utopia-ui'
 
 use the [Map UI Component](/docs/utopia-ui/map-components/map)
 ```jsx
-<UtopiaMap>
+<UtopiaMap
    height='360px'
    width='100vw'
    center={[51.3, 9.6]}
@@ -24,7 +24,7 @@ use the [Map UI Component](/docs/utopia-ui/map-components/map)
    places={places}
    events={events}
    tags = {tags}
-</UtopiaMap>
+/>
 ```
 You can find some Sample Data (places, events, tags) for test purpose below
 

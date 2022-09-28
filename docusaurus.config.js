@@ -78,6 +78,11 @@ const config = {
             label: 'Demo',
           },
           {
+            href: 'https://new.docutopia.de',
+            label: 'Docutopia Map',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/utopia-os',
             label: 'GitHub',
             position: 'right',

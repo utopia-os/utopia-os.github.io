@@ -17,7 +17,7 @@ function HomepageHeader() {
         <BrowserOnly fallback={<div>Loading...</div>}>
           {() => {
             const MapComponent = require('@site/src/components/map').Map;
-            return <MapComponent height='360px' width='100vw' center={[50.6, 9.6]} zoom={11}/>;
+            return <MapComponent height='380px' width='100vw' center={[50.6, 9.55]} zoom={10}/>;
           }}
         </BrowserOnly>
     </header>
@@ -36,7 +36,7 @@ export default function Home(): JSX.Element {
           <div className="hero text--center shadow--lw">
             <div className="container">
               <h1 className="hero__title">Utopia OS</h1>
-              <p className="hero__subtitle">the Web Framework to build Apps for Real Life Communities</p>
+              <p className="hero__subtitle">the Web Framework to build Apps for Real Life Action</p>
               <div>
               <UtopiaOSFeatures />
                 <Link href='/docs/intro'>
@@ -55,9 +55,9 @@ export default function Home(): JSX.Element {
               <p className="hero__subtitle">easy customizable UI Components which fit your projects needs</p>
               <div>
               <UtopiaUIFeatures />
-                <Link href='/category/utopia-ui'>
+                <Link href='/docs/utopia-ui/getting-started'>
                   <button className="button button--secondary button--outline button--lg">
-                    read more
+                    Getting Started
                   </button>
                 </Link>
               </div>
