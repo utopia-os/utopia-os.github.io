@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/map.svg').default,
     description: (
       <>
-        The Map is the crystallization point between real and virtual world where everything comes together.
+        The map is the crystallization point between real and virtual world where everything comes together
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/profiles.svg').default,
     description: (
       <>
-        Profiles allow users to intodruce them self to the community
+        Profiles allow users to introduce themselves to the community
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/market.svg').default,
     description: (
       <>
-        Browse all Offers and Needs in the categorized p2p Market Place
+        Browse all offers and needs in the categorized p2p market place
       </>
     ),
   },
@@ -50,12 +50,12 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/friends.svg').default,
     description: (
       <>
-        Customize your App and manage your personal Network of Friends and Groups 
+        Customize your app and manage your personal network of friends and groups 
       </>
     ),
   },
   {
-    title: 'Tags and Colors Components',
+    title: 'Tags and Color Components',
     Svg: require('@site/static/img/tags.svg').default,
     description: (
       <>
