@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/serverless.svg').default,
     description: (
       <>
-        To make our Apps unstopable and protect out data we intend to avoid any kind of central server. 
+        To make our apps unstoppable and protect our data we intend to avoid any kind of central server. 
       </>
     ),
   },
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/p2p-database.svg').default,
     description: (
       <>
-        Instead we make use of decentralized databases in a p2p Environment.
+        Instead we make use of decentralized databases in a p2p environment.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/public-private-key.svg').default,
     description: (
       <>
-        Create a public-private Key Pair as your serverless decentralized Identity. 
+        Create a public-private key pair as your serverless decentralized identity. 
       </>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/qr-scan.svg').default,
     description: (
       <>
-        Build your Web of Trust by sharing your Public Key offline with people you trust.
+        Build your Web of Trust by sharing your public key offline with people you trust.
       </>
     ),
   },
@@ -59,7 +59,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/offline.svg').default,
     description: (
       <>
-        Use all this Features even without being connected to the Internet.
+        Use all these features even without being connected to the internet.
       </>
     ),
   },
